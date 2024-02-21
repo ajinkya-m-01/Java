@@ -4,12 +4,11 @@ public class CompoundModulo {
         float y =5.3f;
         x%=y;
         System.out.println(x);
-    }
-}
-
         /*
         1)Compile time Success
         2)Run time Success:
         Output:
             2
         */
+    }
+}
