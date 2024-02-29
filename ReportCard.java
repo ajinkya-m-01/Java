@@ -11,20 +11,20 @@ public class ReportCard {
         System.out.print("Enter Your Name: ");
         String Name=sc.nextLine();
 
-        System.out.print("Enter Date: ");
+        System.out.print("Enter Date Of Birth: ");
         String Date=sc.nextLine();
 
         System.out.print("Enter Roll Number: ");
         String Roll =sc.nextLine();
 
-        System.out.print("Enter Section : ");
+        System.out.print("Enter Section or Div : ");
         String Section=sc.nextLine();
 
-        System.out.print("Enter Exam Name");
+        System.out.print("Enter Exam Name:");
         String Exam=sc.nextLine();
 
 
-        System.out.println("Enter Marks");
+        System.out.println("Enter Marks:");
 
         System.out.print("Physics : ");
         int physics=sc.nextInt();
@@ -53,7 +53,7 @@ public class ReportCard {
         System.out.println("                            School : "+School);
         System.out.println("                            Affilation : "+Affilation);
         System.out.println();
-        System.out.println("Name : "+Name+"                                 Date : "+Date);
+        System.out.println("Name : "+Name+"                                 Date Of Birth : "+Date);
         System.out.println("Roll No:"+Roll+"                    Section : "+Section+"           Exam : "+Exam);
         System.out.println();
         System.out.println("Subject                         Total Marks                         Marks Obtained");
@@ -66,8 +66,8 @@ public class ReportCard {
         System.out.println("----------------------------------------------------------------------------------");
         System.out.println("Total                               "+total_marks+"                                 "+marks_obtained);
 
-        System.out.println("Percentage :"+per+"                                                                  Grade : "+grade);
-        System.out.println("Remarks : "+remarks+"                                                                 Sign : Kundlik Gavhane");
+        System.out.println("Percentage :"+per+"                                                                Grade : "+grade);
+        System.out.println("Remarks : "+remarks+"                                                              Sign : Ajinkya Mhetre");
         sc.close();
 
 
@@ -75,3 +75,39 @@ public class ReportCard {
 
     }
 }
+/*
+ * Compile Time:- Succes
+ * Run Time:- Succes
+ * O/P:-
+ * 
+ * Enter School Name:
+L.N.HOSHING.VIDYALAY JAMKHED 413201
+Enter Affilation: SSC
+Enter Your Name: AJINKYA GORAKSHNATH MEHETRE
+Enter Date Of Birth: 19/07/2003
+Enter Roll Number: 3337
+Enter Section or Div : C
+Enter Exam Name:END SEM
+Enter Marks:
+Physics : 69
+Math : 58
+History : 81
+Geography : 79
+CS : 59
+                            School : L.N.HOSHING.VIDYALAY JAMKHED 413201
+                            Affilation : SSC
+
+Name : AJINKYA GORAKSHNATH MEHETRE                                 Date Of Birth : 19/07/2003
+Roll No:3337                    Section : C           Exam : END SEM
+
+Subject                         Total Marks                         Marks Obtained
+1.Physics                           100                                 69
+2.Math                              100                                 58
+3.History                           100                                 81
+4.Geography                         100                                 79
+5.CS                                100                                 59
+----------------------------------------------------------------------------------
+Total                               500                                 346
+Percentage :69                                                                Grade : B
+Remarks : Good                                                              Sign : Ajinkya Mhetre
+ */
